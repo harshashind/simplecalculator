@@ -1,0 +1,70 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background: rgb(202, 197, 197);
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    height: 80vh;
+    background-color: rgb(38, 79, 98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(142, 97, 97, 0.05);
+
+}
+
+
+.button {
+    padding: 19px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 66px;
+    font-size: 20px;
+    text-shadow: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.row {
+    margin: 7px 0;
+    width: 22vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 5px; */
+
+}
+
+.row input {
+    margin: 0;
+    padding: 8px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 35px;
+    text-align: right;
+    width: 290px;
+}
+
+#equal {
+    width: 142px;
+}
+
+#operator {
+    color: rgb(111, 111, 222);
+}
+
+#allclear {
+    width: 115px;
+}
+
+#delete {
+    width: 115px;
+}
